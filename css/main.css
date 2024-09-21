@@ -1624,3 +1624,79 @@ select {
     height: 100%;
   }
 }
+
+
+.launcher__text {
+  color: #fff;
+  text-align: center;
+}
+
+.launcher__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+
+.launcher__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  align-items: center;
+  padding: 20px 16px;
+  position: relative;
+  border: 1px solid #66fcf1;
+  box-shadow: 0px 0px 15px -3px #66fcf1;
+  background-color: #111113;
+  border-radius: 20px;
+  cursor: pointer;
+  gap: 10px;
+  background-color: #66fcf1;
+  font-size: 20px;
+  transition: all .3s ease;
+}
+
+.launcher__btn:hover {
+  transform: scale(1.05);
+}
+
+.launcher__btn img {
+  width: 25px;
+  height: 25px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.modal-link {
+  margin-top: 20px;
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
